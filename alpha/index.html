@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <p id="result"></p>
-    <p id="per"></p>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <div class="heading"> Check Vowels And Consonants</div>
+    <form>
+      <label for="alphabet">Your letter:</label> <br />
+      <input
+        type="text"
+        id="letter"
+        name="letter"
+        placeholder="Enter your letter"
+        required
+      />
+      <input type="submit" name="submit" id="sub-btn" value="Submit" />
+    </form>
+
+    <!-- <p id="vowel"></p> -->
+    <p id="consonant"></p>
 
     <script src="./index.js"></script>
-    
-</body>
+  </body>
 </html>
