@@ -81,7 +81,7 @@ input[type='submit']:hover {
 
 #consonant{
   color: #fff;
-  background-color: deeppink;
+  background-color: rgb(209, 5, 5);
   border-radius: 0.4rem;
   padding: 0.4rem 1rem;
   margin-top: 1rem;
